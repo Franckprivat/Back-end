@@ -8,9 +8,9 @@ connectDB();
 
 const app = express();
 
-app.get("/post", (req, res) => {
-  res.json({ message: "Voici les données" });
-});
+// app.get("/post", (req, res) => {
+//   res.json({ message: "Voici les données" });
+// });
 
 app.use(express.static("public"));
 
